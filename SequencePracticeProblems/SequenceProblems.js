@@ -23,3 +23,9 @@ for(let numOftimes = 0; numOftimes < 5; numOftimes++){
 }
 console.log("Sum of five dice values: "+values);
 console.log("Average of five dice values: "+ values/5);
+
+//Unit conversion
+let oneFoot = 12; // one foot is equals to 12 inch
+let inch = 42;
+let inchToFootConversion = inch/oneFoot;
+console.log("42 inches is equals to: "+inchToFootConversion+" ft");
